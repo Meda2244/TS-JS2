@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+   
+   input {
+  width: 98%;
+  height: 50px;
+  padding: 3px 5px;
+  margin: 20px ;
+  margin-bottom: 20px;
+  border: 1px solid #a4a4ad;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+
+ }
+ 
+    .btn-secondary:hover{
+        background-color: rgb(68, 72, 73);
+        border-radius: 20px;
+        color: white;
+        transition: 1s ease all;
+     }
+    .card{
+        overflow: hidden;
+      }
+      .card{
+        width: 100%;
+        height: 300px;
+      
+      }
+      .card img:hover{
+        transform: scale(1.1);
+        transition: 1s ease all;
+      }
+
+      .cart-section {
+    width: 81%;
+    margin: 2rem 0;
+    background: #FFFFFF;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.cart-section h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0 0 1rem;
+    color: #111827;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.cart-section h3 i {
+    font-size: 1.25rem;
+}
+
+#content {
+    min-height: 80px;
+    border: 1px dashed #D1D5DB;
+    padding: 1rem;
+    border-radius: 6px;
+    background: #F9FAFB;
+    margin-bottom: 1rem;
+}
+
+#total-price {
+    display: none;
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: 0.75rem;
+    background: #ced0d1;
+    border-radius: 6px;
+    color: #111827;
+    margin-bottom: 10px;
+}
+
+#clear, #showprice {
+    padding: 0.50rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#clear i, #showprice i {
+    font-size: 0.9rem;
+}
+
+#clear {
+   
+      background:rgb(104, 36, 36);
+    color: #FFFFFF;
+}
+
+#showprice {
+     background:rgb(80, 97, 57);
+    color: #FFFFFF;
+}
+
+#clear:hover, #showprice:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cart-actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+      
+
+
+ 
